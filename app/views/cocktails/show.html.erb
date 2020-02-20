@@ -1,0 +1,4 @@
+<h1><%= @cocktail.name %></h1>
+
+<%= link_to "All cocktails", cocktails_path %>
+<%= link_to "Delete", cocktail_path, method: :delete, data: { confirm: 'Are you sure?' }  %>
